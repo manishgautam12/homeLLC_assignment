@@ -11,9 +11,9 @@
 
 ### Frontend
 <ul>
-<li>React</li>
+<li>React.js</li>
 <li>CSS</li>
-<li>ES6</li>
+<li> Meterial UI </li>
 </ul>
 
 ## Getting Started
@@ -26,36 +26,43 @@ Run the following commands to start the backend server
 ```sh 
 cd backend
 npm install
-npm run server
+node index.js
+   or
+nodemon index.js
 ```
 * The configs folder in backend contains the database configuration.
-* The middleware folder in backend contains the validation middleware.
 * The model folder in backend contains the User model and schema.
 * The routes folder contains all the routes related to login and registration.
+* The controller folder contains all the function related to login and registration.
 
 ### Frontend
 
 Run the following commands to start the React App
 ```sh
-cd homellc
+cd client
 npm install
 npm start
 ```
-* The homellc folder contains the whole react application.
+* The client folder contains the whole react application.
 * The src folder contains all pages and components.
-* All routes are present in the components folder.
+* All components are present in the components folder.
 
 ## Routes
 
-### '/login' - Login/Sign In
-![image](https://user-images.githubusercontent.com/91782650/222635475-9a6d7236-1e58-407d-9578-6a811792f711.jpg)
+### '/login' or '/' - Login/Sign In
+
+![Screenshot (5)](https://user-images.githubusercontent.com/110158502/222977552-1548a102-39c5-490c-a3e5-f294a55e62ff.png)
 
 
 ### '/signup' - Register/Sign Up
-![image](https://user-images.githubusercontent.com/91782650/222665006-9ed586fe-b9ac-4bf7-a737-071b37f3c3e6.jpg)
 
-### '/forget-pass' - Forget Password
-![image](https://user-images.githubusercontent.com/91782650/222665503-b4dd35de-5f42-4be7-85d3-093f2b506cea.jpg)
+![Screenshot (6)](https://user-images.githubusercontent.com/110158502/222977567-5bc98490-5bf9-4fe1-a9fe-f2d648c33754.png)
+
+### '/forgetpassword' - Forget Password
+
+![Screenshot (7)](https://user-images.githubusercontent.com/110158502/222977609-cd2c2b87-097f-4d38-b28b-99abd39fc640.png)
+
 
 ### '/home' - Home
-![image](https://user-images.githubusercontent.com/91782650/222666021-9e49f0dd-2bb2-4dfc-9f33-ab515e680612.jpg)
+
+![Screenshot (8)](https://user-images.githubusercontent.com/110158502/222977618-ecaa0c44-2ab8-4f36-a5d9-c1866173f89c.png)
