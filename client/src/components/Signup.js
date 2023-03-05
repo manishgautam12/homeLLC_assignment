@@ -46,6 +46,9 @@ const Signup = () => {
        }catch(error)
        {
         console.log(error)
+        if(error.response.data.code=401){
+            alert("Email already exist");
+        }
        }
        
     }
